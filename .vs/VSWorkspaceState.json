@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\commands",
+    "\\src\\database",
+    "\\src\\database\\models",
+    "\\src\\events",
+    "\\src\\interfaces",
+    "\\src\\modules",
+    "\\src\\utils"
+  ],
+  "SelectedNode": "\\src\\commands\\view.ts",
+  "PreviewInSolutionExplorer": false
+}

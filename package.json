@@ -1,0 +1,31 @@
+{
+  "name": "cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js",
+    "dev": "concurrently  \"tsc -w\" \"nodemon build/index.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "@sentry/node": "^6.19.7",
+    "@types/node": "^17.0.35",
+    "concurrently": "^7.2.1",
+    "discord-api-types": "^0.33.0",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase": "^9.8.1",
+    "mongoose": "^6.3.4",
+    "node.js": "0.0.1-security",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.2",
+    "winston": "^3.7.2"
+  }
+}
